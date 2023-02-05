@@ -1,0 +1,15 @@
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\bin\Debug\net6.0\PracticeFundamentalsI.exe
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\bin\Debug\net6.0\PracticeFundamentalsI.deps.json
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\bin\Debug\net6.0\PracticeFundamentalsI.runtimeconfig.json
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\bin\Debug\net6.0\PracticeFundamentalsI.dll
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\bin\Debug\net6.0\PracticeFundamentalsI.pdb
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.csproj.CoreCompileInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.dll
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\refint\PracticeFundamentalsI.dll
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.pdb
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\PracticeFundamentalsI.genruntimeconfig.cache
+C:\Users\HBreezie\Desktop\CSharp\LanguageFundamentals\Overview\PracticeFundamentalsI\obj\Debug\net6.0\ref\PracticeFundamentalsI.dll
