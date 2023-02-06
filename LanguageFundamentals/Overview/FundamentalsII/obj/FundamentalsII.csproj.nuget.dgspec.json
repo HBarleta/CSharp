@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\FundamentalsII\\FundamentalsII.csproj": {}
+    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\FundamentalsII\\FundamentalsII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\FundamentalsII\\FundamentalsII.csproj": {
+    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\FundamentalsII\\FundamentalsII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\FundamentalsII\\FundamentalsII.csproj",
+        "projectUniqueName": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\FundamentalsII\\FundamentalsII.csproj",
         "projectName": "FundamentalsII",
-        "projectPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\FundamentalsII\\FundamentalsII.csproj",
+        "projectPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\FundamentalsII\\FundamentalsII.csproj",
         "packagesPath": "C:\\Users\\HBreezie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\FundamentalsII\\obj\\",
+        "outputPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\FundamentalsII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HBreezie\\AppData\\Roaming\\NuGet\\NuGet.Config"
