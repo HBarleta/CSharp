@@ -201,3 +201,58 @@ Console.WriteLine(value);
 }
 
 <!-- adding will always put the new value at the end of the list -->
+
+<!-- Dictionaries -->
+
+<!-- declaring a dictionary -->
+<!-- must specify data type for keys and values -->
+<!-- first string is key, second string is value -->
+
+Dictionary<string,string> MyDictionary = new Dictionary<string, string>();
+
+<!-- adding an entry to dictionary -->
+
+MyDictionary.Add("Name", "Your Name");
+
+MyDictionary.Add("Location", "Your Location");
+
+<!-- // printing a value from a dictionary -->
+
+Console.WriteLine(MyDictionary["Name"]);
+Console.WriteLine(MyDictionary["Location"]);
+
+<!-- // Iterating through a dictionary -->
+<!-- // cannot use a for loop since dictionaries do not have indicies -->
+
+foreach (KeyValuePair<string, string> entry in MyDictionary)
+{
+Console.WriteLine($"{entry.Key} - {entry.Value}");
+}
+
+<!-- creating a dictionary with a string key and List<int> as value -->
+
+Dictionary<string, List<int>> MyDictionary2 = new Dictionary<string, List<int>>();
+
+MyDictionary2.Add("Job", new List<int> { 1 });
+MyDictionary2.Add("Level", new List<int> { 5 });
+MyDictionary2.Add("Name", new List<int> { 2 });
+MyDictionary2.Add("Bob", new List<int> { 3 });
+MyDictionary2.Add("Jasmin", new List<int> { 12 });
+MyDictionary2.Add("Multi", new List<int> { 23, 2, 5, 55 });
+MyDictionary2.Remove("Jasmin")
+
+<!-- iterating through the dictionary -->
+
+foreach (KeyValuePair<string, List<int>> entry in MyDictionary2)
+{
+<!-- declaring the string key as entry.Key to be used in string interpolation below -->
+string key = entry.Key;
+<!-- when declaring the values you must declare the data type that was used when the dictionary was initialized List<int> list = entry.Value is then initialized to be used later for string interpolation -->
+List<int> list = entry.Value;
+Console.WriteLine("Key = {0}, contains {1} values", key, list.Count);
+foreach (int num in list)
+{
+<!-- A second foreach loop is required to loop through the list values within the value of the key -->
+Console.WriteLine(" - Value = {0}", num);
+}
+}

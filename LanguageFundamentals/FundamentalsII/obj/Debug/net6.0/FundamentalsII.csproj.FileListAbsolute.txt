@@ -1,0 +1,15 @@
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\bin\Debug\net6.0\FundamentalsII.exe
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\bin\Debug\net6.0\FundamentalsII.deps.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\bin\Debug\net6.0\FundamentalsII.runtimeconfig.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\bin\Debug\net6.0\FundamentalsII.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\bin\Debug\net6.0\FundamentalsII.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.CoreCompileInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\refint\FundamentalsII.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\FundamentalsII.genruntimeconfig.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\FundamentalsII\obj\Debug\net6.0\ref\FundamentalsII.dll

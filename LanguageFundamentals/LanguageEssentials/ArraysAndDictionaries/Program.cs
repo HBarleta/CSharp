@@ -89,3 +89,60 @@ Random randNum = new Random();
 int length = GroceryList.Count;
 
 Console.WriteLine($"A random item: {GroceryList[randNum.Next(0, length)]}");
+
+// Dictionaries
+
+Dictionary<string, string> MyDictionary = new Dictionary<string, string>();
+
+MyDictionary.Add("Name", "Harold Barleta");
+MyDictionary.Add("Location", "Los Angeles");
+
+// printing a value from a dictionary
+Console.WriteLine(MyDictionary["Name"]);
+Console.WriteLine(MyDictionary["Location"]);
+
+// Iterating through a dictionary
+// cannot use a for loop since dictionaries do not have indicies
+
+foreach (KeyValuePair<string, string> entry in MyDictionary)
+{
+    Console.WriteLine($"{entry.Key} - {entry.Value}");
+}
+
+// Challenge
+
+Dictionary<string, List<int>> MyDictionary2 = new Dictionary<string, List<int>>();
+
+MyDictionary2.Add("Job", new List<int> { 1 });
+MyDictionary2.Add("Level", new List<int> { 5 });
+MyDictionary2.Add("Name", new List<int> { 2 });
+MyDictionary2.Add("Bob", new List<int> { 3 });
+MyDictionary2.Add("Jasmin", new List<int> { 12 });
+MyDictionary2.Add("Multi", new List<int> { 23, 2, 5, 55 });
+Console.WriteLine(MyDictionary2["Jasmin"]);
+MyDictionary2.Remove("Jasmin");
+Console.WriteLine("Jasmin is removed");
+// Console.WriteLine(MyDictionary2["Jasmin"]);
+
+
+
+
+foreach (KeyValuePair<string, List<int>> entry in MyDictionary2)
+{
+    // outer for each to iterate through dictionary
+    string key = entry.Key;
+    // setting the keys into a string variable
+    List<int> list = entry.Value;
+    // setting the values into a list variable
+    Console.WriteLine("Key = {0}, contains {1} values", key, list.Count);
+    foreach (int num in list)
+    {
+        // inner for each to iterate through all values inside list value
+        Console.WriteLine(" - Value = {0}", num);
+    }
+}
+// clear all entries in dictionary
+MyDictionary2.Clear();
+
+
+
