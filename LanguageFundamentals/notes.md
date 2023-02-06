@@ -245,14 +245,22 @@ MyDictionary2.Remove("Jasmin")
 
 foreach (KeyValuePair<string, List<int>> entry in MyDictionary2)
 {
+
 <!-- declaring the string key as entry.Key to be used in string interpolation below -->
+
 string key = entry.Key;
+
 <!-- when declaring the values you must declare the data type that was used when the dictionary was initialized List<int> list = entry.Value is then initialized to be used later for string interpolation -->
+
 List<int> list = entry.Value;
 Console.WriteLine("Key = {0}, contains {1} values", key, list.Count);
 foreach (int num in list)
 {
+
 <!-- A second foreach loop is required to loop through the list values within the value of the key -->
+
 Console.WriteLine(" - Value = {0}", num);
 }
 }
+
+<!-- DEBUGGING -->

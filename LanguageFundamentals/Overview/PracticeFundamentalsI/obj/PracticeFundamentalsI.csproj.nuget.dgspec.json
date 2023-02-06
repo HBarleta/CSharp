@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HBreezie\\Desktop\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj": {}
+    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HBreezie\\Desktop\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj": {
+    "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HBreezie\\Desktop\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj",
+        "projectUniqueName": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj",
         "projectName": "PracticeFundamentalsI",
-        "projectPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj",
+        "projectPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\PracticeFundamentalsI.csproj",
         "packagesPath": "C:\\Users\\HBreezie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\obj\\",
+        "outputPath": "C:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\LanguageFundamentals\\Overview\\PracticeFundamentalsI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HBreezie\\AppData\\Roaming\\NuGet\\NuGet.Config"
