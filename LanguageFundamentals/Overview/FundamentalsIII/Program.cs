@@ -171,9 +171,10 @@ static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> 
     }
     return GeneratedDict;
 }
-
+// initializing NamesList to be used in GenerateDict method
 List<string> NamesList = new List<string>() { "Harold", "Jerry", "Max", "Job" };
+// initializing NumbersList to be used in GenerateDict method
 List<int> NumbersList = new List<int>() { 1, 35, 25, 69 };
-
+// invoking GenerateDictionary function
 GenerateDictionary(NamesList, NumbersList);
 
