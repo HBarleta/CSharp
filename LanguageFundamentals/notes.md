@@ -4,6 +4,8 @@ inside CLI run this command:
 
 dotnet new console -o "NAME_OF_PROGRAM"
 
+dotnet watch run for continuous monitoring for changes in file and will auto run after changes are saved
+
 C# is a statically type language meaning ANYTHING we type must identify WHAT IT IS at the moment we make it
 Data types must be written explicitly from the beginning. IE Floats, whole integers, arrays must be declared when initializing. This allows the program to run more efficiently since declaring them off the bat will allocate the correct amount of memory.
 Javascript: var name = "Andy"
@@ -263,4 +265,55 @@ Console.WriteLine(" - Value = {0}", num);
 }
 }
 
-<!-- DEBUGGING -->
+<!-- functions -->
+
+3 parts of a function
+static (type of function) void (data type of return) SayHello() (name of function)
+if no return is expected must be void otherwise a data type must be specified when creating function
+
+example:
+
+static int DoubleIt(int number){
+return number\*2;
+}
+
+<!-- Implicit Casting -->
+
+int IntegerValue = 3;
+Double DoubleValue = IntegerValue;
+
+<!-- no data loss because 3 will become 3.0 -->
+
+<!-- Explicit Casting -->
+
+double DoubleValue = 3.14159;
+int IntegerValue = (int)DoubleValue;
+
+<!-- placing int in front of the double will cause data loss since it will round to nearest whole number -->
+
+<!-- Unboxing -->
+
+var and object can store any data in them
+object BoxedData = "this is clearly a string";
+
+if (BoxedData is int) {
+
+<!-- using is keyword to figure out what type of value is stored in the box -->
+
+Console.WriteLine("I guess we have an integer value in this box?");
+}
+
+<!-- boxing data will become relevant in classes -->
+
+if(BoxedData is string){
+Console.WriteLine("It is totall a string in the box!");
+}
+
+<!-- Safe Explicit Casting -->
+
+Converting a value to another data type as long as it is capable of doing it
+object ActuallyString = "a string";
+
+<!-- safe casting can only be of types that can be nullable. strings can hold a null value but integers cannot hold null -->
+
+string ExplicitString = ActuallyString as string;
