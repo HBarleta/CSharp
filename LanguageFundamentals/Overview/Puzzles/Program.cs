@@ -134,6 +134,12 @@ else if (userResponse == "2")
     else
     {
         Console.WriteLine("Choose a valid number!");
+        askAction();
     }
+}
+else if (userResponse != "2" || userResponse != "1")
+{
+    Console.WriteLine("Enter a valid response! type  1 or 2");
+    askAction();
 }
 
