@@ -1,0 +1,15 @@
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\bin\Debug\net6.0\UserInput.exe
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\bin\Debug\net6.0\UserInput.deps.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\bin\Debug\net6.0\UserInput.runtimeconfig.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\bin\Debug\net6.0\UserInput.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\bin\Debug\net6.0\UserInput.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.csproj.CoreCompileInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\refint\UserInput.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\UserInput.genruntimeconfig.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\Overview\UserInput\obj\Debug\net6.0\ref\UserInput.dll
