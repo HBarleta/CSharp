@@ -1,0 +1,15 @@
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.exe
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.deps.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.runtimeconfig.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.CoreCompileInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\refint\DrinkMaker.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.genruntimeconfig.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\DrinkMaker\obj\Debug\net6.0\ref\DrinkMaker.dll
