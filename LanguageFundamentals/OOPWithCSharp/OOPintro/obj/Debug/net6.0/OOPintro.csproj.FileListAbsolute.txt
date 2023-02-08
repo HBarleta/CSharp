@@ -1,0 +1,5 @@
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\OOPintro\obj\Debug\net6.0\OOPintro.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\OOPintro\obj\Debug\net6.0\OOPintro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\OOPintro\obj\Debug\net6.0\OOPintro.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\OOPintro\obj\Debug\net6.0\OOPintro.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\CSharp\LanguageFundamentals\OOPWithCSharp\OOPintro\obj\Debug\net6.0\OOPintro.csproj.CoreCompileInputs.cache
