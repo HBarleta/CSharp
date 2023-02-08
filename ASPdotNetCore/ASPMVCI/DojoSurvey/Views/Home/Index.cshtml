@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container margin-auto">
+    <form method="POST" action = "addUser" class="form-control">
+        <div class="form-control">
+            <label>Your Name:</label>
+            <input type="text" name = "Name">
+        </div>
+        <div class="form-control">
+            <label>Dojo Location: </label>
+            <select name="DojoLocation">
+                <option value="SanJose">San Jose</option>
+                <option value="Burbank">Burbank</option>
+                <option value="NewYork">New York</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Favorite Language</label>
+            <select name="FavoriteLanguage">
+                <option value="Javascript">Javascript</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+            </select>
+        </div>
+        <p><label for="Comments">Comments:</label></p>
+        <textarea name="Comments" id="Comments" cols="30" rows="5" placeholder="Type your comments here (optional)"></textarea>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+    @{
+        <h1>@ViewBag.Message</h1>
+        if(ViewBag.SurveyResults != null){
+           <h3>Name: @ViewBag.SurveyResults[0]</h3>
+           <h3>Dojo Location: @ViewBag.SurveyResults[1]</h3>
+           <h3>Favorite Language: @ViewBag.SurveyResults[2]</h3>
+           if(@ViewBag.SurveyResults[3] == null){
+            <h3 class="text-secondary">No comments</h3>
+           } else {
+
+           <h3>Comments : @ViewBag.SurveyResults[3]</h3>
+           }
+           <a href="/"><button class="btn btn-primary">Go Back</button></a>
+        }
+    }
+
+</div>

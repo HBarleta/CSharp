@@ -2,21 +2,20 @@ public class Enemy
 {
     public string Name { get; set; }
     public int Health { get; set; }
-    public int DisplayHealth { get; }
+
     public List<Attack> AttackList { get; set; } = new List<Attack>();
 
     public Enemy(string name)
     {
         Name = name;
         Health = 100;
-        DisplayHealth = Health;
         AttackList = new List<Attack>();
     }
     public Attack RandomAttack()
     {
         Random randomA = new Random();
         // randomA creates a random class instance
-        int atkListCount = AttackList.Count + 1;
+        int atkListCount = AttackList.Count;
         // atkListCount will get boundry for AttackList
         int idx = randomA.Next(0, atkListCount);
         // creating a random index value to return a random attack from AttackList
@@ -33,7 +32,9 @@ public class Enemy
 
     public void PerformAttack(Enemy Target, Attack ChosenAttack)
     {
+
         Target.Health -= ChosenAttack.DamageAmount;
-        Console.WriteLine($"{Name} attacks {Target.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
+        Console.WriteLine($"{Name} attacks {Target.Name} with {ChosenAttack.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
+
     }
 }
