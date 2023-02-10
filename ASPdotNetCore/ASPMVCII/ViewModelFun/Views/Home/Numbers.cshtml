@@ -1,0 +1,11 @@
+@model Number
+
+<div class="container text-center">
+<h1>Here are some numbers</h1>
+
+@{
+    for(int i = 0; i < @Model.nums.Count; i++){
+        <p>@Model.nums[i]</p>
+    }
+}
+</div>

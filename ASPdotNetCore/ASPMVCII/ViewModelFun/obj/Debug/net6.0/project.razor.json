@@ -18374,8 +18374,18 @@
   "RootNamespace": "ViewModelFun",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Home\\UserList.cshtml",
+      "TargetPath": "Views\\Home\\UserList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Home\\User.cshtml",
+      "TargetPath": "Views\\Home\\User.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18394,8 +18404,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Home\\Message.cshtml",
+      "TargetPath": "Views\\Home\\Message.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HBreezie\\Desktop\\CSharp\\CSharp\\ASPdotNetCore\\ASPMVCII\\ViewModelFun\\Views\\Home\\Numbers.cshtml",
+      "TargetPath": "Views\\Home\\Numbers.cshtml",
       "FileKind": "mvc"
     },
     {
