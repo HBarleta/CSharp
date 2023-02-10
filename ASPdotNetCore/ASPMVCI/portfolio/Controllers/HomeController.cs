@@ -13,21 +13,21 @@ public class HomeController : Controller
         _logger = logger;
     }
     [HttpGet("")]
-    public string Index()
+    public IActionResult Index()
     {
-        return "This is my Index";
+        return View();
     }
 
     [HttpGet("projects")]
-    public string Projects()
+    public IActionResult Projects()
     {
-        return "This is my Projects";
+        return View();
     }
 
     [HttpGet("contact")]
-    public string Contact()
+    public IActionResult Contacts()
     {
-        return "This is my contacts";
+        return View();
     }
     public IActionResult Privacy()
     {
