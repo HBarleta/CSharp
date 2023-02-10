@@ -19,14 +19,20 @@ public class MeleeFighter : Enemy
 
     public void Rage(Enemy Target)
     {
-        Random randomAtk = new Random();
-        int atkListCount = AttackList.Count;
-        int idx = randomAtk.Next(0, atkListCount);
-        Attack randomAttack = AttackList[idx];
-        randomAttack.DamageAmount += 10;
-        Console.WriteLine(randomAttack.Name);
-        Console.WriteLine(randomAttack.DamageAmount);
-        Console.WriteLine($"{this.Name} used RAGE!");
-        this.PerformAttack(Target, randomAttack);
+        if (this.Health <= 0)
+        {
+            Console.WriteLine($"{this.Name} has been defeated and cannot attack!");
+        }
+        else
+        {
+
+            Random randomAtk = new Random();
+            int atkListCount = AttackList.Count;
+            int idx = randomAtk.Next(0, atkListCount);
+            Attack randomAttack = AttackList[idx];
+            randomAttack.DamageAmount += 10;
+            Console.WriteLine($"{this.Name} used RAGE!");
+            this.PerformAttack(Target, randomAttack);
+        }
     }
 }

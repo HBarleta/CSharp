@@ -30,11 +30,24 @@ public class Enemy
         Console.WriteLine($"{attack.Name} was added to attack list");
     }
 
-    public void PerformAttack(Enemy Target, Attack ChosenAttack)
+    public virtual void PerformAttack(Enemy Target, Attack ChosenAttack)
     {
-
-        Target.Health -= ChosenAttack.DamageAmount;
-        Console.WriteLine($"{Name} attacks {Target.Name} with {ChosenAttack.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
+        if (this.Health < 0)
+        {
+            Console.WriteLine($"{this.Name} has been defeated and cannot attack!");
+        }
+        else
+        {
+            Target.Health -= ChosenAttack.DamageAmount;
+            if (Target.Health <= 0)
+            {
+                Console.WriteLine($"{Name} has defeated {Target.Name}");
+            }
+            else
+            {
+                Console.WriteLine($"{Name} attacks {Target.Name} with {ChosenAttack.Name} attack, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}HP!!");
+            }
+        }
 
     }
 }
