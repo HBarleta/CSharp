@@ -27,13 +27,15 @@ public class HomeController : Controller
 
     [HttpPost("/addUser")]
 
-    public IActionResult addUser(string Name, string DojoLocation, string FavoriteLanguage, string Comments)
+    public IActionResult addUser(Response newResponse)
     {
-        List<string> Results = new List<string>() { Name, DojoLocation, FavoriteLanguage, Comments };
-        ViewBag.SurveyResults = Results;
-        ViewBag.Message = "Here are your results!";
-        Console.WriteLine($"Name: {Name} Location: {DojoLocation} Favorite Language: {FavoriteLanguage} Comments: {Comments}");
-        return View("Index");
+        if (!ModelState.IsValid)
+        {
+            return View("Index");
+        }
+        Console.WriteLine(newResponse.Name);
+
+        return View("Results", newResponse);
     }
 
     public IActionResult Privacy()
