@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+
+    <h1>Here are some delicious foods!</h1>
+    @{
+        List<string> FoodsList = new List<string>() {"Apple Pie", "Pizza", "cinnamon Rolls", "Lasagna", "Donuts", "Chocolate Cake", "Burritos"};
+        foreach (string food in FoodsList){
+            if(food.StartsWith('C') || food.StartsWith('c')){
+                <p class="text-danger">@food</p>
+            }else {
+            <P>@food</P>
+            }
+        }
+    }
+</div>
