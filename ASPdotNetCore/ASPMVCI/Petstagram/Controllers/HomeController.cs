@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Petstagram.Models;
 
+
 namespace Petstagram.Controllers;
 
 public class HomeController : Controller
@@ -13,6 +14,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
         return View();
@@ -20,25 +22,49 @@ public class HomeController : Controller
 
 
     [HttpPost("/addPet")]
-    public IActionResult AddPet(string PetType, string PetName, int Age, string HairColor)
+    public IActionResult AddPet(Pet newPet)
     {
-        if (PetType == "dolphin")
+        if (!ModelState.IsValid)
+        {
+            return View("Index");
+        }
+
+
+        if (newPet.PetType == "dolphin")
         {
             ViewBag.SecretMessage = "You've entered a secret pet! ";
             return View("Index");
         }
-
-        Console.WriteLine($"Name: {PetName} Age: {Age} Hair Color: {HairColor}");
+        Console.WriteLine($"Name: {newPet.Name} Age: {newPet.Age} Hair Color: {newPet.HairColor}");
         // return RedirectToAction("Index");
-        return Redirect("/");
+        return View("ViewPet", newPet);
     }
 
-    // [HttpGet("{**path}")]
-    // public RedirectToActionResult Unknown()
-    // {
-    //     Console.WriteLine("Page not found");
-    //     return RedirectToAction("Index");
-    // }
+    [HttpGet("/viewPet")]
+    public IActionResult ViewPet()
+    {
+        // ViewBag.Name = "Meesha";
+        // ViewBag.Type = "Dog";
+        // ViewBag.Age = 2;
+        // ViewBag.HairColor = "Brown and White";
+        Pet calebsPet = new Pet()
+        {
+            Name = "Meesha",
+            PetType = "Dog",
+            Age = 2,
+            HairColor = "Brown and White",
+        };
+        return View("ViewPet", calebsPet);
+    }
+
+
+
+    [HttpGet("{**path}")]
+    public RedirectToActionResult Unknown()
+    {
+        Console.WriteLine("Page not found");
+        return RedirectToAction("Index");
+    }
 
     public IActionResult Privacy()
     {
