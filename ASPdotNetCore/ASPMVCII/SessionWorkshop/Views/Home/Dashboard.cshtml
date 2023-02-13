@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row justify-contents-between text-center">
+    <div class="col">
+        <h1>Welcome @Model </h1>
+    </div>
+    <div class="col">
+        <form asp-action = "Logout" asp-asp-controller="Home">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+    <hr>
+    <h1>@ViewBag.num</h1>
+    <div class="row justify-content-around">
+        <div class="col">
+            <a asp-action="AddOne"><button  class="btn btn-warning w-100 h-75 p-4 mb-2">+1</button></a>
+            <a asp-action="TimesTwo"><button class="btn btn-danger w-100 h-75 p-4">X 2</button></a>
+        </div>
+        <div class="col">
+            <a asp-action="MinusOne"><button class="btn btn-primary w-100 h-75 p-4 mb-2">-1</button></a>
+            <a asp-action="AddRand"><button class="btn btn-success w-100 h-75 p-4">+ Random</button></a>
+        </div>
+    </div>
+</div>
+
