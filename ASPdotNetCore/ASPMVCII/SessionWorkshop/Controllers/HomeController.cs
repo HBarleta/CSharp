@@ -34,8 +34,8 @@ public class HomeController : Controller
     [HttpGet("/Dashboard/addOne")]
     public IActionResult AddOne()
     {
-        int? numOne = HttpContext.Session.GetInt32("num");
-        int newNum = (int)numOne + 1;
+        int? sessNum = HttpContext.Session.GetInt32("num");
+        int newNum = (int)sessNum + 1;
         HttpContext.Session.SetInt32("num", newNum);
         int? num = HttpContext.Session.GetInt32("num");
         ViewBag.Num = num;
@@ -46,8 +46,8 @@ public class HomeController : Controller
     [HttpGet("/Dashboard/minusone")]
     public IActionResult MinusOne()
     {
-        int? numOne = HttpContext.Session.GetInt32("num");
-        int newNum = (int)numOne - 1;
+        int? sessNum = HttpContext.Session.GetInt32("num");
+        int newNum = (int)sessNum - 1;
         HttpContext.Session.SetInt32("num", newNum);
         int? num = HttpContext.Session.GetInt32("num");
         ViewBag.Num = num;
@@ -58,8 +58,8 @@ public class HomeController : Controller
     [HttpGet("/Dashboard/timestwo")]
     public IActionResult TimesTwo()
     {
-        int? numOne = HttpContext.Session.GetInt32("num");
-        int newNum = (int)numOne * 2;
+        int? sessNum = HttpContext.Session.GetInt32("num");
+        int newNum = (int)sessNum * 2;
         HttpContext.Session.SetInt32("num", newNum);
         int? num = HttpContext.Session.GetInt32("num");
         ViewBag.Num = num;
@@ -72,8 +72,8 @@ public class HomeController : Controller
     {
         Random rand = new Random();
         int randNum = rand.Next(1, 11);
-        int? numOne = HttpContext.Session.GetInt32("num");
-        int newNum = (int)numOne + randNum;
+        int? sessNum = HttpContext.Session.GetInt32("num");
+        int newNum = (int)sessNum + randNum;
         HttpContext.Session.SetInt32("num", newNum);
         int? num = HttpContext.Session.GetInt32("num");
         ViewBag.Num = num;
