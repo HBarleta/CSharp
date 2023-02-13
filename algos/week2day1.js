@@ -45,9 +45,10 @@ class BinarySearchTree {
    * @returns {boolean} Indicates if this tree is empty.
    */
   isEmpty() {
-    if (this.root === null) {
-      return true;
-    } else return false;
+    // if (this.root === null) {
+    //   return true;
+    // } else return false;
+    return this.root === null;
   }
 
   /**
@@ -59,6 +60,10 @@ class BinarySearchTree {
    * @returns {number} The smallest integer from this tree.
    */
   min(current = this.root) {
+    // edge case check if BST is empty
+    if (this.isEmpty()) {
+      return null;
+    }
     while (current.left !== null) {
       current = current.left;
     }
@@ -75,6 +80,9 @@ class BinarySearchTree {
    */
   minRecursive(current = this.root) {
     // basecase
+    if (this.isEmpty()) {
+      return null;
+    }
     if (current.left === null) {
       return current.data;
     }
@@ -92,6 +100,10 @@ class BinarySearchTree {
    * @returns {number} The largest integer from this tree.
    */
   max(current = this.root) {
+    // edge case check if BST is empty
+    if (this.isEmpty()) {
+      return null;
+    }
     // while current.right is not null, keep transversing to the right nodes
     while (current.right !== null) {
       current = current.right;
@@ -109,6 +121,10 @@ class BinarySearchTree {
    * @returns {number} The largest integer from this tree.
    */
   maxRecursive(current = this.root) {
+    // edge case check if BST is empty
+    if (this.isEmpty()) {
+      return null;
+    }
     if (current.right == null) {
       return current.data;
     }
