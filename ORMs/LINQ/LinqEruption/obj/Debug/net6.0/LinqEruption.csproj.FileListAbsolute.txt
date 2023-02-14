@@ -1,0 +1,15 @@
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\bin\Debug\net6.0\LinqEruption.exe
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\bin\Debug\net6.0\LinqEruption.deps.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\bin\Debug\net6.0\LinqEruption.runtimeconfig.json
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\bin\Debug\net6.0\LinqEruption.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\bin\Debug\net6.0\LinqEruption.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.csproj.AssemblyReference.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.AssemblyInfoInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.AssemblyInfo.cs
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.csproj.CoreCompileInputs.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\refint\LinqEruption.dll
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.pdb
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\LinqEruption.genruntimeconfig.cache
+C:\Users\HBreezie\Desktop\CSharp\CSharp\ORMs\LINQ\LinqEruption\obj\Debug\net6.0\ref\LinqEruption.dll
