@@ -73,7 +73,7 @@ public class HomeController : Controller
         Random rand = new Random();
         int randNum = rand.Next(1, 11);
         int? sessNum = HttpContext.Session.GetInt32("num");
-        int? newNum = (int)sessNum + randNum;
+        int newNum = (int)sessNum + randNum;
         HttpContext.Session.SetInt32("num", newNum);
         int? num = HttpContext.Session.GetInt32("num");
         ViewBag.Num = num;
