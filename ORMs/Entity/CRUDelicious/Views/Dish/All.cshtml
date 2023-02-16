@@ -1,0 +1,24 @@
+@model List<Dish>
+<div class="container text-center">
+
+<h1>Welcome to CRUDelicious</h1>
+<p><a asp-action="All" asp-controller="Dish">Home</a> | <a asp-action="NewDish" asp-controller="Dish"> Add a Dish </a></p>
+</div>
+
+<div class="container">
+    <h3>Here are some recent dishes</h3>
+    <div class="col-lg-6 col-sm-12">
+
+    @foreach (Dish dish in Model)
+    {
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action list-group-item-secondary">
+                <a asp-action="Details"
+                asp-controller="Dish"
+                asp-route-dishId="@dish.DishId">
+                @dish.Name</a> 
+            by @dish.Chef</li>
+        </ul>
+    }
+    </div>
+</div>

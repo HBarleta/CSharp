@@ -1,0 +1,36 @@
+@model Dish
+
+<div class="row">
+    <div class="container text-center">
+        <h2>Edit @Model.Name Dish!</h2>
+        <p><a asp-action="All" asp-controller="Dish">Home</a> | <a asp-action="NewDish" asp-controller="Dish"> Add a Dish </a></p>
+    </div>
+    <div class="card py-2 col-lg-8 col-sm-12 shadow bg-secondary text-white m-auto">
+        <div class="body">
+            <form asp-controller="Dish" asp-action="Update" method="POST" asp-route-dishId="@Model.DishId">
+                @* Dish name *@
+                <label asp-for="Name" ></label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+                <input asp-for="Name" class="form-control" value="@Model.Name">
+                @* Chef name *@
+                <label asp-for="Chef" ></label>
+                <span asp-validation-for="Chef" class="text-danger"></span>
+                <input asp-for="Chef" class="form-control" value="@Model.Chef">
+                @* Tastiness *@
+                <label asp-for="Tastiness" ></label>
+                <span asp-validation-for="Tastiness" class="text-danger"></span>
+                <input asp-for="Tastiness" class="form-control" value="@Model.Tastiness" >
+                @* Calories *@
+                <label asp-for="Calories" ></label>
+                <span asp-validation-for="Calories" class="text-danger"></span>
+                <input asp-for="Calories" class="form-control" value="@Model.Calories" >
+                @* Description *@
+                <label asp-for="Description" ></label>
+                <span asp-validation-for="Description" class="text-danger"></span>
+                <input asp-for="Description" class="form-control" value="@Model.Description" ></textarea>
+                <button type="submit" class="btn btn-warning my-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</div>
