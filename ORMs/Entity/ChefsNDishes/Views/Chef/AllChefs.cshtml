@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "All Chefs";
+}
+@model List<Chef>
+<h1>Check out our roster of chefs!</h1>
+
+@{
+    foreach (Chef C in Model)
+    {
+        <h5>@C.FirstName @C.LastName</h5>
+        <p>DOB : @C.DOB.ToString("MM/dd/yyyy")</p>
+    }
+}

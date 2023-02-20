@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "All Dishes";
+}
+@model List<Dish>
+
+<h1>Check out some yummy dishes!</h1>
+
+@foreach (Dish d in Model)
+{
+    <p>@d.DishName</p>
+    <p>@d.Calories</p>
+
+    <p>@d.Tastiness</p>
+}
