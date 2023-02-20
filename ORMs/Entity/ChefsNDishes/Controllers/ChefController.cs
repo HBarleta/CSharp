@@ -9,7 +9,7 @@ public class ChefController : Controller
     {
         db = context;
     }
-
+    [HttpGet("/")]
     [HttpGet("/chefs/all")]
     public IActionResult AllChefs()
     {

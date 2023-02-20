@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ChefsNDishes.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ChefsNDishes.Controllers;
 
@@ -14,7 +15,7 @@ public class DishController : Controller
     [HttpGet("/dishes/all")]
     public IActionResult AllDishes()
     {
-        List<Dish> allDishes = db.Dishes.ToList();
+        List<Dish> allDishes = db.Dishes.Include(c => c.Cook).ToList();
 
         return View("AllDishes", allDishes);
     }

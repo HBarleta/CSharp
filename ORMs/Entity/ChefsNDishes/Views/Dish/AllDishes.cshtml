@@ -7,8 +7,12 @@
 
 @foreach (Dish d in Model)
 {
-    <p>@d.DishName</p>
-    <p>@d.Calories</p>
+    <div class="container border shadow mb-3 p-3">
 
-    <p>@d.Tastiness</p>
+    <p>Dish Name: @d.DishName</p>
+    <p>Calories: @d.Calories</p>
+    <p>Tastiness: @d.Tastiness</p>
+    <p>Chef: @d.Cook.FirstName @d.Cook.LastName</p>
+    </div>
+    
 }
