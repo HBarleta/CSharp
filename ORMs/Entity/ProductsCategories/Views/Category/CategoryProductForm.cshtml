@@ -1,0 +1,24 @@
+@model ProductCategory
+<h1>Link your category to product here!</h1>
+<div class="row d-flex">
+    <div class="col-md">
+        <h3>Category Name: @ViewBag.catName</h3>
+        <h3>Included Products in Category</h3>
+                @foreach (Product prod in ViewBag.includedProds)
+        {
+            <p>@prod.ProductName</p>
+        }
+    </div>
+    <div class="col-md">
+        <h3>Products</h3>
+        <form asp-action="addProdCat" asp-controller="Category" asp-route-catId="@ViewBag.catId" method="POST">
+        <select asp-for="ProductId">
+        @foreach (Product prod in ViewBag.AllProds)
+        {
+            <option value="@prod.ProductId">@prod.ProductName</option>
+        }
+        </select>
+        <button class="btn btn-primary">Add Product to @ViewBag.catName</button>
+        </form>
+    </div>
+</div>

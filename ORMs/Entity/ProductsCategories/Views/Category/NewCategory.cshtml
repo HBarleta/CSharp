@@ -1,0 +1,18 @@
+@model Category
+
+<h1>Add a new Category!</h1>
+<div class="row">
+<div class="col">
+    <form asp-action="AddCategory" asp-controller="category">
+        <label asp-for="CategoryName">Category Name</label>
+        <span asp-validation-for="CategoryName" class="text-danger text-weight-bold"></span>
+        <input asp-for="CategoryName">
+        <button type="submit" class="btn btn-primary">Add New Product</button>
+    </form>
+</div>
+<div class="col">
+    
+    @await Html.PartialAsync("_AllCategories")
+</div>
+
+</div>

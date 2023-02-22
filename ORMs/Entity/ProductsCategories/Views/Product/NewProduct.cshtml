@@ -1,0 +1,28 @@
+@model Product
+
+<h1>Add a new Product!</h1>
+<div class="row">
+    <div class="col">
+        <form asp-action="AddProduct" asp-controller="product">
+            <div class="form-control">
+                <label asp-for="ProductName">Product Name: </label>
+                <span asp-validation-for="ProductName" class="text-danger text-weight-bold"></span>
+                <input asp-for="ProductName">
+            </div>
+            <div class="form-control">
+                <label asp-for="Description">Description: </label>
+                <span asp-validation-for="Description" class="text-danger text-weight-bold"></span>
+                <input asp-for="Description">
+            </div>
+            <div class="form-control">
+                <label asp-for="Price">Price: </label>
+                <span asp-validation-for="Price"  class="text-danger text-weight-bold"></span>
+                <input asp-for="Price" type="number" step="0.01">
+            </div>
+            <button type="submit" class="btn btn-primary">Add New Product</button>
+        </form>
+    </div>
+    <div class="col">
+        @await Html.PartialAsync("_AllProducts")
+    </div>
+</div>

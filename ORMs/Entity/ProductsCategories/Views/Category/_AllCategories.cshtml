@@ -1,0 +1,7 @@
+
+<h1>Here is a list of categories</h1>
+
+@foreach (Category cat in ViewBag.allCategories)
+{
+    <p><a asp-action="oneCategory" asp-route-categoryId="@cat.CategoryId">@cat.CategoryName</a></p>
+}
