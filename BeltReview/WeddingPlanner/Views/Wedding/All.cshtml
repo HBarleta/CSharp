@@ -1,0 +1,51 @@
+@model List<Wedding>
+<div class="row">
+    <h1>Welcome @Context.Session.GetString("UserName")</h1>
+    <h1 class="text-center">All weddings</h1>
+    <h3 class="col-4">Wedding Of</h3>
+    <h3 class="col-4">Date</h3>
+    <h3 class="col-4">Actions</h3>
+    <hr>
+@foreach (Wedding w in Model)
+{
+    <div class="col-4">
+        <a asp-action="ViewOne" asp-controller="Wedding" asp-route-wedId="@w.WeddingId"><h3>@w.WedderOne and @w.WedderTwo's Wedding</h3></a>
+    </div>
+    <div class="col-4">
+        <h3>Save the Date: @w.WedDate.ToString("MMM dd, yyyy")</h3>
+        <p>Created by @w.Planner.FirstName @w.Planner.LastName</p>
+    </div>
+    <div class="col-4">
+        @{
+            if(w.UserId == Context.Session.GetInt32("UUID")){
+                <form 
+            asp-action="DeleteWedding"
+            asp-controller="wedding"
+            asp-route-wedId="@w.WeddingId"
+            >
+            <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+            } else {
+                @* checking if UserId is already in GuestRSVPtoWedding DB *@
+                bool RSVPexists = w.Guests.Any(guest => guest.UserId == Context.Session.GetInt32("UUID"));
+
+                <form
+                asp-action="RSVP"
+                asp-controller="wedding"
+                asp-route-wedId="@w.WeddingId"
+                method="POST"
+                >
+                <button type="submit" class="btn btn-success">
+                    @if(RSVPexists){
+                        <span>Un-RSVP</span>
+                    } else {
+                        <span>RSVP</span>
+                    }
+                </button>
+            </form>
+            }
+        }
+    </div>
+    <hr>
+}
+</div>

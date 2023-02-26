@@ -1,0 +1,13 @@
+@model Wedding
+
+<h1 class="mb-3">@Model.WedderOne and @Model.WedderTwo's Wedding Details</h1>
+@* formatting wedding date to be user friendly *@
+<h3 class="mb-3">Wedding Date: @Model.WedDate.ToString("MMM dd, yyyy")</h3>
+<h3 class="mb-3">Guest List: </h3>
+    <div class="container">
+    @* iterating through list of guests *@
+        @foreach (GuestsRSVPWedding grw in Model.Guests)
+        {
+            <p>@grw.User.FirstName @grw.User.LastName</p>
+        }
+    </div>
