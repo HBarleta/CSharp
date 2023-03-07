@@ -5,7 +5,6 @@ public class RangedFighter : Enemy
     {
         new Attack("Shoot an Arrow", 20),
         new Attack("Throw a Knife", 15),
-
     };
     public RangedFighter(string name) : base(name)
     {
